@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.gwapile{
+    display: flex;
+    padding: 5px;
+    background-color: #140557;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.menu .nav_link_from_gwapile{
+display: flex;
+justify-content: space-around;
+width: 30%;
+}
+.menu .nav_link_from_gwapile li{
+    list-style: none;
+    padding: 9px;
+}
+.menu .nav_link_from_gwapile li a{
+    color:#fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 19px;
+    padding: 14px 16px;
+    font-weight: bold;
+}
+.menu .nav_link_from_gwapile li a:active{
+    background-color: lightcoral;
+}
+.menu .nav_link_from_gwapile li a:hover{
+    background-color: chartreuse;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.vencha h1{
+    margin-top: 300px;
+    display: flex;
+}
